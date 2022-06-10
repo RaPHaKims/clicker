@@ -131,7 +131,6 @@ do
             luckB:AddTooltip("Might be visual, not sure")
             tP:AddDivider()
             tP:AddToggle("auto_best", {Text = "Auto equip best",Default = false})
-            end)
             tP:AddButton("Craft shiny all", function()
                 for _, v in next, plr.petOwned:GetChildren() do
                     rep.Events.Client.upgradePet:FireServer(v.name.Value, 1, v)
