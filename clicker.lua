@@ -131,8 +131,6 @@ do
             luckB:AddTooltip("Might be visual, not sure")
             tP:AddDivider()
             tP:AddToggle("auto_best", {Text = "Auto equip best",Default = false})
-            tP:AddButton("Instant mass delete", function()
-                rep.Events.Client.petsTools.deleteUnlocked:FireServer()
             end)
             tP:AddButton("Craft shiny all", function()
                 for _, v in next, plr.petOwned:GetChildren() do
