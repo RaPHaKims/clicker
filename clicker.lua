@@ -80,7 +80,7 @@ do
 
     -- ui
     local Window = Library:CreateWindow({
-        Title = "Mint Hub",
+        Title = "RaPHaKims Clicker",
         Center = true,
         AutoShow = true,
         Size=UDim2.fromOffset(570, 620),
